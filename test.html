@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BlackJack</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="test.css">
+
+	<script type="text/javascript" src="jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts.js"></script>
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 the-table">
+				<div class="row message-row col-sm-12">
+					<div class="col-sm-2">
+						
+					</div>
+					
+				</div>
+				<div class="row">
+					<div class="row dealer-hand-wrapper col-sm-12">
+						<div class="col-sm-2">
+							<img class="player-img" src="https://vignette.wikia.nocookie.net/harrypotter/images/d/d3/0.61_Slytherin_Crest_Transparent.png/revision/latest?cb=20161020182557" height="200px" width="150pxpx"><span class="dealer-total" style="color: green; font-size: 40px;">0</span>
+						</div><!-- Dealer total -->
+						<div class="col-sm-10 dealer-cards">
+							<div class="card card-1 col-sm-2"><img src="cards/hogwarts.png"></div>
+							<div class="card card-2 col-sm-2"><img src="cards/hogwarts.png"></div>
+							<div class="card card-3 col-sm-2"><img src="cards/hogwarts.png"></div>
+							<div class="card card-4 col-sm-2"><img src="cards/hogwarts.png"></div>
+							<div class="card card-5 col-sm-2"><img src="cards/hogwarts.png"></div>
+							<div class="card card-6 col-sm-2"><img src="cards/hogwarts.png"></div>
+						</div><!-- Dealer cards -->
+					</div><!-- dealer hand -->
+					<div class="row player-hand-wrapper col-sm-12">
+						<div class="col-sm-2">
+							<img class="player-img" src="http://cdn1.theodysseyonline.com/files/2015/11/18/635834072512622453-1853704657_Ravenclaw_Crest_1.png" height="200px" width="150px"><span class="player-total" style="color: darkblue; font-size: 40px;">0</span>
+						</div><!-- Player total -->
+						<div class="col-sm-10 player-cards">
+							<div class="card card-1 col-sm-2"><img src="cards/hogwarts.png"></div>
+							<div class="card card-2 col-sm-2"><img src="cards/hogwarts.png"></div>
+							<div class="card card-3 col-sm-2"><img src="cards/hogwarts.png"></div>
+							<div class="card card-4 col-sm-2"><img src="cards/hogwarts.png"></div>
+							<div class="card card-5 col-sm-2"><img src="cards/hogwarts.png"></div>
+							<div class="card card-6 col-sm-2"><img src="cards/hogwarts.png"></div>
+						</div><!-- Player cards -->
+						
+
+					</div><!-- dealer hand -->
+					</div><!-- player hand -->
+					<div class="row the-buttons">
+						<div class="col-sm-2 col-sm-offset-3">
+							<button class="btn btn-danger deal-button">Deal</button>
+						</div><!-- Deal -->
+						<div class="col-sm-2 col-sm-offset-1">
+							<button class="btn btn-success hit-button">Hit</button>
+						</div><!-- Hit -->
+						<div class="col-sm-2 col-sm-offset-1">
+							<button class="stand-button">Stand</button>
+						</div><!-- Stand -->
+					</div><!-- the buttons -->
+					<div class="row the-chips">
+						<div class="col-sm-2">
+							
+						</div><!-- Wager -->
+						<div class="col-sm-2 col-sm-offset-1">
+							<img class="one-dollar" src="cards/red-chip.png">
+						</div><!-- Deal -->
+						<div class="col-sm-2 col-sm-offset-1">
+							<img class="five-dollar" src="cards/green-chip.png">
+						</div><!-- Hit -->
+						<div class="col-sm-2 col-sm-offset-1">
+							<img class="ten-dollar" src="cards/black-chip.png">
+						</div><!-- Chips -->
+						<div class="double-down"><img src="cards/Atlanta_MLS.svg.png" /></div>
+					</div><!-- the buttons -->
+					
+
+					<div>
+						<img class="banner" src="https://orig00.deviantart.net/2bab/f/2011/170/3/f/harry_potter_hogwarts_banner_by_uprisen257-d3jcvxa.png">
+					</div>
+				</div><!-- Another row -->
+				<div class="bottom3 sm-sm-12">
+					<button id="reset">RESET</button>
+				</div>
+			</div><!-- the table -->
+			
+		</div><!-- Row -->
+	</div><!-- container -->
+
+</body>
+</html>
